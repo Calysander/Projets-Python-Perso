@@ -12,7 +12,7 @@ etc. (S’arrêter à 16384 euros.)
 
 euro = 1
 dollar = 1.65
-while euro < 16384 :
-    print(euro, "euro(s) = ", dollar*euro, "dollars(s)")
+while euro <= 16384 :
+    print(euro, "euro(s) = ", 1.65*euro, "dollars(s)")
     euro *= 2
     
