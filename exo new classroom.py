@@ -1,19 +1,9 @@
 """
-Cedi est un programme de simulation de jets de dés
+Écrivez un programme qui affiche les 20 premiers termes de la table de multiplication par 7.
 """
-from random import *
-
-ss = True
 
 
-
-def lance(): 
-    selec = int(input("choisissez le nombre de dés a lancer : "))  
-    nombre = 0
-    while nombre != selec:
-        de = randint(1, 6)
-        nombre += 1
-        print(de)
-
-while ss:
-    lance()
+multiplicateur = 0
+while multiplicateur < 20 :
+    print(multiplicateur * 7, end = " / ")
+    multiplicateur += 1
